@@ -1,0 +1,34 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  gap: 5px;
+  width: 300px;
+}
+
+.container > div {
+  margin-top: 15px;
+}
+
+.container p {
+  color: gray;
+}
+
+.container h3,
+p {
+  text-align: center;
+}
+
+.container-down {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5%;
+  margin: 20px 0;
+  width: 75%;
+}

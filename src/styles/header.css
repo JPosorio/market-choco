@@ -1,0 +1,27 @@
+header {
+  position: sticky;
+  top: 20px;
+  border-radius: 16px;
+  display: flex;
+  background: linear-gradient(180deg, #21212163, #00000078);
+  backdrop-filter: blur(16px);
+  justify-content: center;
+  max-width: 1000px;
+  width: 80%;
+  margin: 40px auto;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px 0px;
+  letter-spacing: 1px;
+  background-color: transparent;
+  outline: none;
+}
+
+header a:hover {
+  background-color: rgba(240, 240, 240, 0.3);
+  border-radius: 12px;
+}

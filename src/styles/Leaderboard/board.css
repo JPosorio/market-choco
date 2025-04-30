@@ -1,0 +1,10 @@
+#leaderboard {
+  padding: 40px 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  min-height: 630px;
+  max-height: 630px;
+  overflow-y: auto;
+}

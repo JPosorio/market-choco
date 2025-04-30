@@ -1,0 +1,8 @@
+#market {
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  gap: 40px;
+}
